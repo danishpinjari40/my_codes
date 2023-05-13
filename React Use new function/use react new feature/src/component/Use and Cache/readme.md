@@ -1,0 +1,3 @@
+Suspense --> App.jsx
+
+//* Suspense :- In React, when a component needs to fetch data asynchronously, it may render a placeholder component while the data is being fetched. The Suspense component allows you to define a fallback component that is rendered while the data is being loaded. The fallback component is rendered until the asynchronous operation completes,at which point the Suspense component will render the content that was requested.
