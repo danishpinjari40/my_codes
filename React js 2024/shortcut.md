@@ -27,3 +27,5 @@ cd 05_password_generator && pnpm install -D tailwindcss postcss autoprefixer && 
 
 # git hub added sort
 git add . && git commit -m "React concept added" && git push origin main
+
+echo "/** @type {import('tailwindcss').Config} */export default { content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'], theme: { extend: {} }, plugins: [] }" > tailwind.config.js
