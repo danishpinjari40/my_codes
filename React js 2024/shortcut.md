@@ -19,7 +19,7 @@ git add . && git commit -m "React concept added" && git push origin main
 
 ```sh
 
-pnpm create vite@latest 05_password_generator -- --template react
+pnpm create vite@latest 07_React_Router -- --template react
 
 
 cd 05_password_generator && pnpm install -D tailwindcss postcss autoprefixer && npx tailwindcss init -p
@@ -29,3 +29,7 @@ cd 05_password_generator && pnpm install -D tailwindcss postcss autoprefixer && 
 git add . && git commit -m "React concept added" && git push origin main
 
 echo "/** @type {import('tailwindcss').Config} */export default { content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'], theme: { extend: {} }, plugins: [] }" > tailwind.config.js
+
+
+## React Router Dom
+pnpm i react-router-dom
