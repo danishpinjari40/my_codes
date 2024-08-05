@@ -93,4 +93,4 @@ const course = {
 // * after de-structure
 const {courseInstructor: instructor} = course;
 
-// console.log(instructor);
+console.log(instructor);
